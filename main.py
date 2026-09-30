@@ -1,5 +1,5 @@
 import random as r
-number= r.randint(1,101)
+number= r.randint(1,100)
 attempts=0
 
 print("Guess the number game")
