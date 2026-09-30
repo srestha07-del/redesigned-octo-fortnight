@@ -18,6 +18,6 @@ while attempts<5:
         print("Congratulations! You guessed the number!")
         break
 
-if attempts==5:
+if attempts==5 and guess != number:
     print("Oops! You ran out of attempts. Better luck next time!")
 
